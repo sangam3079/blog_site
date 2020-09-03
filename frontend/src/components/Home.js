@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const home = () => (
     <div className='container'>
         <div className="jumbotron">
@@ -10,6 +11,7 @@ const home = () => (
             <p>click the button below to check out blog</p>
             <Link className="btn btn-primary btn-lg" to='/blog' role="button">Check Out</Link>
         </div>
+        
     </div>
     
 );

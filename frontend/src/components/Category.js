@@ -51,6 +51,7 @@ const Category = (props) => {
                     <div className="col-auto d-none d-lg-block">
                         <img width="200" height="250" src={blogPost.thumbnail} alt='' />
                     </div>
+                
                 </div>
             );
         });
